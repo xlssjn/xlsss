@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #11101d;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    padding-top: 40px;
+}
+
+.logo-nama {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+}
+
+nav,
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+ul,
+li,
+.nav-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li,
+.nav-a:hover {
+    color: rgb(255, 183, 49);
+}
+
+/* BAGIAN ISI selamat datang  */
+.container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 53vh;
+}
+
+.background {
+    position: relative +1;
+    cursor: no-drop;
+    margin-top: 20px;
+    height: 50vh;
+    width: 60vh;
+    background-color: rgba(0, 66, 66, 0.692);
+    border-radius: 2rem;
+    box-shadow: -7px 5px 15px black;
+}
+
+.background2 {
+    position: relative +1;
+    cursor: no-drop;
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 50vh;
+    width: 60vh;
+    background-color: rgba(199, 31, 31, 0.568);
+    border-radius: 2rem;
+    box-shadow: 
+}
+
+.background3 {
+    margin-top: 120px;
+    cursor:default;
+    height: 50vh;
+    width: 60vh;
+    position: absolute;
+    background-color: #6c855cb4;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 0px black;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.judul {
+    color: wheat;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.judul2 {
+    color: wheat;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    ;
+    margin-left: 3rem;
+}
+
+pre {
+    color: whitesmoke;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+    padding-top: 20px;
+    margin-left: 1.2rem;
+}
+
+.logo {
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    gap: 5px;
+    position: relative +5;
+}
+i{
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+.fas{
+    color: #f50057;
+    transition: 0.4;
+}
+ i:hover{
+    color: #f50057;
+    transition: .4;
+}
+
+
+/* Mulai isi ke duaaaaaaaaaaaaaaaaaaaaa */
+.container--2 {
+    height: 80vh;
+    padding-top: 0;
+    background-color: white;
+    position:block;
+    margin-bottom: 5em;
+}
+
+.portofolio {
+    padding-top: 25em;
+    padding-bottom: 12em;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 3em;
+}
+
+.gambarku {
+    width: 14%;
+    cursor: no-drop;
+    border-radius: 1em;
+}
+.gambarku:hover{
+    scale:0%;
+    transition: all;
+    transition-duration: .9;
+    overflow: hidden;
+    display: block;
+    box-shadow:20px 0px 70px rgb(0, 0, 0);; ;
+}
+
+.informasi {
+    height: 20em;
+    background-color: whitesmoke;
+    color: black;
+    margin-right: 10em;
+    padding: 3em;
+    border-radius: 1em;
+    box-shadow: -70px 0px 50px black;;
+}
+
+.ppaska {
+    text-decoration: none;
+    line-height: 10px;
+    color: lime;
+}
+
+.biodata-h2 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 3em;
+    padding-top: 0em;
+}
+.sosmed{
+    display: grid;
+}
+
+/* conatiner tigaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+.container--3{
+    height:1000vh;
+}
